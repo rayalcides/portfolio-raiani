@@ -1,5 +1,7 @@
+import { Banner } from '../components/Banner'
+
 export function Inicio() {
   return(
-   <h1>Inicio na pag</h1>
+   <Banner/>
   )
 }
