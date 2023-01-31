@@ -1,0 +1,14 @@
+.menuContainer{
+  display: flex;
+  background: #fff;
+  gap: 10rem;
+  justify-content: end;
+  padding: 2rem;
+  list-style: none;
+}
+
+.menuContainer a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
