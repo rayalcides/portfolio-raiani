@@ -5,10 +5,20 @@
   justify-content: end;
   padding: 2rem;
   list-style: none;
+
 }
+
+
 
 .menuContainer a{
   text-decoration: none;
-  color: black;
+  padding: 8px;
+  color: rgb(0, 0, 0);
   font-weight: 700;
+}
+
+.menuContainer li:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  border-bottom: 1px solid;
 }
