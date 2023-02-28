@@ -1,0 +1,34 @@
+.listaCards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardContainer{
+  width: 240px;
+  text-decoration: none;
+   height: 130px;
+   background-color: rgb(246, 246, 246);
+   padding: 10px;
+   margin: 10px;
+   border-radius: 2px;
+  
+}
+
+.cardContainer:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  border-bottom: 3px solid rgb(95, 95, 95);
+  cursor: pointer;
+}
+
+.cardContainer h2{
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.cardInfor{
+  display: flex;
+  color: rgb(0, 0, 0);
+}

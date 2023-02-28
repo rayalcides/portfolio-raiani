@@ -1,5 +1,8 @@
+import { Repositorios } from '../components/Repositorios'
+
 export function Portifolio() {
+  
   return(
-    <h1>Meu portifólio</h1>
+    <Repositorios/>
   )
 }

@@ -6,6 +6,8 @@ import { Portifolio } from './pages/Portifolio'
 import { Contato } from './pages/Contato'
 
 
+
+
 export function AplicationRouter (){
    return(
      <BrowserRouter>
