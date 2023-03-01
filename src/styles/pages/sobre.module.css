@@ -1,0 +1,30 @@
+.sobreContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inforInicial{
+  display: flex;
+  align-items: center;
+}
+
+.sobreDados{
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+.sobreDados ul li{
+  margin: 8px;
+}
+
+h1, h2{
+  margin: 0;
+}
+
+.imgSobre{
+  width: 200px;
+  border-radius: 50%;
+  margin: 40px;
+}
