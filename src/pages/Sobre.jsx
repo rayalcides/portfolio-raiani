@@ -16,7 +16,7 @@ export function Sobre() {
      </div>
      <div>
          <h3>bio:</h3>
-        <p>Sou uma desenvolvedora Frontend, <br /> busco me desenvolver no mercado de trabalho na area tecnologica. <br /> Meu foco é oferecer um trabalho sério, de qualidade, com responsabilidade.</p>
+       <p>tenho 26 anos de idade,casada, sem filhos, <br /> resido atualmente na cidade de Salvador BA. Sou capoerista, poetisa, roterista e mãe de pets. <br />Migrei para a area tecnologica pois vi diversas oportunidades de crescimeto profissional, <br /> coisa que já almejava há um tempo. Trabalhei no mercado formal com telecomunicação e <br />atendimento ao publico. Hoje busco uma oportunidade na area da tecnologia. </p> 
      </div>
     </div>
     <div className={styles.sobreDados}>
