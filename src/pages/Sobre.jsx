@@ -1,8 +1,10 @@
 import img from '../assets/img/perfil2.jpg'
+import foto from '../assets/img/certificado-reprograma.png'
 import styles from '../styles/pages/sobre.module.css'
 
 export function Sobre() {
   return(
+    <div>
    <div className={styles.sobreContainer}>
     <div>
      <div className={styles.inforInicial}>
@@ -31,6 +33,13 @@ export function Sobre() {
       </ul>
     </div>
    </div>
+   <section>
+      <div className={styles.certificadoContainer}>
+        <img className={styles.certificadoImg} src={foto} alt="" />
+      </div>
+    </section>
+  </div>
+   
 
   )
 }
