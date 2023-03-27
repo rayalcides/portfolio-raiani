@@ -15,6 +15,7 @@ export function Repositorios() {
   }, [])
   
   return(
+   
     <div className={styles.listaCards}>
       {reposFromApi.map(item => (
           <a href={item.html_url} target='_blank' className={styles.cardContainer} kay={item.id}>
@@ -27,5 +28,6 @@ export function Repositorios() {
         )
       )}
     </div>
+ 
   )
 }

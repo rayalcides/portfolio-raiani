@@ -3,6 +3,9 @@ import { Repositorios } from '../components/Repositorios'
 export function Portifolio() {
   
   return(
-    <Repositorios/>
+    <div>
+     <h1 >Meus repositórios GITHUB</h1> 
+      <Repositorios/>
+    </div>
   )
 }

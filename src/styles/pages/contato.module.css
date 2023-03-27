@@ -1,0 +1,11 @@
+.contatoContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 160px;
+}
+
+.contatoContainer img{
+  width: 120px;
+}
